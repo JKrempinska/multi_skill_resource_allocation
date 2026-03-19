@@ -1,0 +1,9 @@
+Data Sources:
+- Simple one with 1000 rows
+- link: https://www.kaggle.com/datasets/granjithkumar/it-employees-data-for-project-allocation
+
+- Only tasks and skills required
+- link: https://www.kaggle.com/datasets/umerfarooq09/skill-based-task-assignment
+
+- To check out
+- https://www.projectmanagement.ugent.be/research/data
