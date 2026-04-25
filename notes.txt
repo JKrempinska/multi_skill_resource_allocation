@@ -7,3 +7,11 @@ Data Sources:
 
 - To check out
 - https://www.projectmanagement.ugent.be/research/data
+
+
+Presentation outline:
+1. Steps that we want to cover
+2. What we have done uptil now
+3. Dataset - how it's constructed, why synthetic?
+4. Models - from simplest to the most complicated
+5. Plans for the next presentation

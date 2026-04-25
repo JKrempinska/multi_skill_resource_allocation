@@ -5,8 +5,8 @@ import datetime
 
 # 1. CONFIGURATION 
 CONFIG = {
-    'NUM_EMPLOYEES': 50,              # Size of the workforce
-    'NUM_PROJECTS': 15,               # Total number of projects
+    'NUM_EMPLOYEES': 60,              # Size of the workforce
+    'NUM_PROJECTS': 13,               # Total number of projects
     'MIN_TASKS_PER_PROJ': 2,          # Minimum tasks per project
     'MAX_TASKS_PER_PROJ': 4,          # Maximum tasks per project
     'SECONDARY_SKILL_PROB': 0.35,     # 35% chance an employee has cross-category skills
