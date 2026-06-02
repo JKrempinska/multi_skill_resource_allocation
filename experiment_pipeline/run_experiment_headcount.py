@@ -18,8 +18,11 @@ def run_headcount_experiment():
 
     # 2. Generate a single Baseline Dataset
     # We use a fixed baseline so we are stripping away from the exact same pool of people.
-    base_employees = generate_employees(num_employees=40, seniority_profile='balanced', random_seed=42)
-    base_tasks = generate_tasks(num_projects=20, precedence_prob=0.5, random_seed=42)
+    # base_employees = generate_employees(num_employees=40, seniority_profile='balanced', random_seed=42)
+    # base_tasks = generate_tasks(num_projects=20, precedence_prob=0.5, random_seed=42)
+
+    base_employees = pd.read_csv('base_data/technova_employees.csv')
+    base_tasks = pd.read_csv('base_data/technova_tasks.csv')
     
     # Ensure the external contractor is available as a safety net
     all_required_skills = set()
