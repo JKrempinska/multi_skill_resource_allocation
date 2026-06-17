@@ -1,0 +1,11 @@
+Project_ID,Task_ID,Skills_Needed,Hours_Needed,Predecessors
+P001,P001_T1,JUnit:2,600,[]
+P001,P001_T2,C#:3|Node.js:1,500,"[""P001_T1""]"
+P002,P002_T1,React:1,400,[]
+P002,P002_T2,Angular:3,400,"[""P002_T1""]"
+P002,P002_T3,Tableau:1,100,"[""P002_T1""]"
+P003,P003_T1,PyTest:3|Cypress:1,500,[]
+P003,P003_T2,C#:2,600,[]
+P004,P004_T1,Selenium:1|PyTest:2,100,[]
+P004,P004_T2,Spark:1|Tableau:3,500,"[""P004_T1""]"
+P004,P004_T3,Terraform:2|AWS:2,500,[]
